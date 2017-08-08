@@ -1,0 +1,11 @@
+Package: paren
+Type: Package
+Title: Utility function for SQL IN operator
+Version: 0.1.0
+Authors@R: person("Taekyun", "Kim", role=c("aut", "cre"), email = "taekyunk@gmail.com")
+Description: This package offers a utility function `paren()` to build a list of values for SQL IN operator.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Suggests: testthat
