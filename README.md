@@ -4,6 +4,12 @@ paren
 
 The goal of parens is to offer a utility function `paren()` to build a list of values for SQL IN operator. `paren()` will add single quote to each element when the data type is not numeric.
 
+Install
+-------
+
+    # install.packages('devtools')
+    devtools::install_github("taekyunk/paren")
+
 Example
 -------
 
